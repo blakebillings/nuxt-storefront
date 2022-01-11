@@ -22,5 +22,5 @@ export * from "./useSearchSuggestions"
 export * from "./useProductSearch"
 export * from "./useSearchRelatedProducts"
 export * from "./useCategoryTree"
-
+export * from "./useDropzoneContent"
 export * from "./getters/index"

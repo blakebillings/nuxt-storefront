@@ -61,8 +61,7 @@ import {
 
 import debounce from "lodash.debounce"
 import { useAsync } from "@nuxtjs/composition-api"
-import useUiState from "../composables/useUiState"
-import { usePurchaseLocation } from "../composables"
+import { usePurchaseLocation, useUiState } from "../composables"
 import HeaderNavigation from "./HeaderNavigation"
 import LocaleSelector from "./LocaleSelector"
 import { useUser } from "@/composables/useUser"
@@ -81,7 +80,6 @@ export default defineComponent({
     HeaderNavigation,
   },
   directives: { clickOutside },
-  // setup(props, { root }) {
   setup() {
     const nuxt = useNuxtApp()
     const app = nuxt.nuxt2Context.app
