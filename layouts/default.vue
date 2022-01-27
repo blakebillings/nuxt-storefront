@@ -22,7 +22,7 @@
 .wrapper {
   width: 100%;
   margin: 0 auto;
-  background-color: yellow;
+  background-color: red;
 }
 
 .content {
